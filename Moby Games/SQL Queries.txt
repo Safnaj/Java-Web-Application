@@ -1,0 +1,60 @@
+1.)Create game Table:-
+
+create table game(
+GameID int,
+GameName varchar(30),
+Price varchar(50),
+Size varchar(50),
+Requirements varchar(30),
+Description varchar(60),
+
+constraint game_pk primary key(GameID)
+)
+
+------------------------------------------
+
+2.)Create admin Table:-
+
+create table admin(
+username varchar(30),
+password varcher(30),
+
+constraint admin_pk primary key(username)
+)
+
+-------------------------------------------
+
+3.)Create user Table:-
+
+create table user(
+name varchar(20)
+uname varchar(30),
+mobile varchar(30),
+email varchar(30),
+country varchar(30),
+Gender varchar(30),
+
+constraint user_pk primary key uname 
+)
+-------------------------------------------
+
+4.)Create cart Table :-
+
+create table cart(
+username varchar(30)
+gamename varchat(40),
+qty int,
+payement varchat(30),
+cnum int(16),
+
+constraint cart_pk primary key username
+)
+-------------------------------------------
+
+5.) Create Contact Us Table :-
+
+create table contactus(
+name varchar(40)
+email varchar(40),
+msg varchat (500),
+)
